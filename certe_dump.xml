@@ -1,0 +1,73 @@
+<certe_dump>
+  <instance type=" FIFO_main_test "> 
+     uvm_test_top 
+  
+     <instance type=" FIFO_env "> 
+        env 
+  
+        <instance type=" FIFO_agent "> 
+           agt 
+  
+           <instance type=" FIFO_driver "> 
+              drv 
+  
+              <port if_type = "uvm_analysis_port" txn_type = "anonymous"> 
+                 rsp_port 
+              </port> 
+  
+              <port if_type = "uvm_seq_item_pull_port" txn_type = "anonymous"> 
+                 seq_item_port 
+                 <connection>  uvm_test_top.env.agt.sqr.seq_item_export  </connection> 
+              </port> 
+           </instance> 
+  
+  
+           <instance type=" FIFO_monitor "> 
+              mon 
+  
+              <port if_type = "uvm_analysis_port" txn_type = "anonymous"> 
+                 ap 
+                 <connection>  uvm_test_top.env.cov.analysis_imp  </connection> 
+                 <connection>  uvm_test_top.env.scb.imp  </connection> 
+              </port> 
+           </instance> 
+  
+  
+           <instance type=" uvm_sequencer "> 
+              sqr 
+  
+              <export if_type = "uvm_analysis_export" txn_type = "anonymous"> 
+                 rsp_export 
+                 <connection>  uvm_test_top.env.agt.sqr.sqr_rsp_analysis_fifo.analysis_export  </connection> 
+              </export> 
+  
+              <imp if_type = "uvm_seq_item_pull_imp" txn_type = "anonymous"> 
+                 seq_item_export 
+              </imp> 
+           </instance> 
+  
+        </instance> 
+  
+  
+        <instance type=" FIFO_coverage "> 
+           cov 
+  
+           <imp if_type = "uvm_analysis_imp" txn_type = "anonymous"> 
+              analysis_imp 
+           </imp> 
+        </instance> 
+  
+  
+        <instance type=" FIFO_scoreboard "> 
+           scb 
+  
+           <imp if_type = "uvm_analysis_imp" txn_type = "anonymous"> 
+              imp 
+           </imp> 
+        </instance> 
+  
+     </instance> 
+  
+  </instance> 
+  
+  </certe_dump>

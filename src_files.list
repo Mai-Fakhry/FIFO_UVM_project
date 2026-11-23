@@ -1,0 +1,7 @@
++incdir+.
+shared_pkg.sv
+FIFO_INTERFACE.sv
+FIFO.sv
+FIFO_SVA.sv
+FIFO_pkg.sv
+FIFO_TOP.sv

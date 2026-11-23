@@ -1,0 +1,248 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /FIFO_TOP/fifo_dut/u_fifo_sva
+=== Design Unit: work.FIFO_SVA
+=================================================================================
+
+Assertion Coverage:
+    Assertions                      33        33         0   100.00%
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_reset_values
+                     FIFO_SVA.sv(29)                    0          1
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_async_reset
+                     FIFO_SVA.sv(37)                    0          1
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_full
+                     FIFO_SVA.sv(53)                    0          1
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_empty
+                     FIFO_SVA.sv(57)                    0          1
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_almostfull
+                     FIFO_SVA.sv(61)                    0          1
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_almostempty
+                     FIFO_SVA.sv(65)                    0          1
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_underflow
+                     FIFO_SVA.sv(69)                    0          1
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_flags_excl
+                     FIFO_SVA.sv(74)                    0          1
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_outputs_known
+                     FIFO_SVA.sv(80)                    0          1
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_wr_ack_fwd
+                     FIFO_SVA.sv(93)                    0          1
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_wr_ack_rev
+                     FIFO_SVA.sv(97)                    0          1
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_no_ack_full
+                     FIFO_SVA.sv(101)                   0          1
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_ovf_fwd
+                     FIFO_SVA.sv(105)                   0          1
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_ovf_rev
+                     FIFO_SVA.sv(109)                   0          1
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_ack_ovf_excl
+                     FIFO_SVA.sv(113)                   0          1
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_count_range
+                     FIFO_SVA.sv(126)                   0          1
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_cnt_inc
+                     FIFO_SVA.sv(130)                   0          1
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_cnt_dec
+                     FIFO_SVA.sv(134)                   0          1
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_cnt_hold
+                     FIFO_SVA.sv(138)                   0          1
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_cnt_sat_full
+                     FIFO_SVA.sv(142)                   0          1
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_cnt_sat_empty
+                     FIFO_SVA.sv(146)                   0          1
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_rw_mid
+                     FIFO_SVA.sv(151)                   0          1
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_rw_empty
+                     FIFO_SVA.sv(155)                   0          1
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_rw_full
+                     FIFO_SVA.sv(159)                   0          1
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_wr_ptr_range
+                     FIFO_SVA.sv(176)                   0          1
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_rd_ptr_range
+                     FIFO_SVA.sv(178)                   0          1
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_wr_ptr_inc
+                     FIFO_SVA.sv(182)                   0          1
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_wr_ptr_hold
+                     FIFO_SVA.sv(185)                   0          1
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_rd_ptr_inc
+                     FIFO_SVA.sv(189)                   0          1
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_rd_ptr_hold
+                     FIFO_SVA.sv(192)                   0          1
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_ptr_vs_count
+                     FIFO_SVA.sv(197)                   0          1
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_dout_stable
+                     FIFO_SVA.sv(209)                   0          1
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_underflow_noside
+                     FIFO_SVA.sv(213)                   0          1
+
+Directive Coverage:
+    Directives                      23        23         0   100.00%
+
+DIRECTIVE COVERAGE:
+--------------------------------------------------------------------------------------------
+Name                                     Design Design   Lang File(Line)      Hits Status    
+                                         Unit   UnitType                                     
+--------------------------------------------------------------------------------------------
+/FIFO_TOP/fifo_dut/u_fifo_sva/c_async_reset 
+                                         FIFO_SVA Verilog  SVA  FIFO_SVA.sv(40)  109 Covered   
+/FIFO_TOP/fifo_dut/u_fifo_sva/c_reset_when_nonempty 
+                                         FIFO_SVA Verilog  SVA  FIFO_SVA.sv(44)   87 Covered   
+/FIFO_TOP/fifo_dut/u_fifo_sva/c_reset_when_full 
+                                         FIFO_SVA Verilog  SVA  FIFO_SVA.sv(45)    7 Covered   
+/FIFO_TOP/fifo_dut/u_fifo_sva/c_reset_during_write 
+                                         FIFO_SVA Verilog  SVA  FIFO_SVA.sv(46)   65 Covered   
+/FIFO_TOP/fifo_dut/u_fifo_sva/c_reset_release 
+                                         FIFO_SVA Verilog  SVA  FIFO_SVA.sv(47)  109 Covered   
+/FIFO_TOP/fifo_dut/u_fifo_sva/c_full     FIFO_SVA Verilog  SVA  FIFO_SVA.sv(83)   89 Covered   
+/FIFO_TOP/fifo_dut/u_fifo_sva/c_empty    FIFO_SVA Verilog  SVA  FIFO_SVA.sv(84)  165 Covered   
+/FIFO_TOP/fifo_dut/u_fifo_sva/c_almostfull 
+                                         FIFO_SVA Verilog  SVA  FIFO_SVA.sv(85)  135 Covered   
+/FIFO_TOP/fifo_dut/u_fifo_sva/c_almostempty 
+                                         FIFO_SVA Verilog  SVA  FIFO_SVA.sv(86)  310 Covered   
+/FIFO_TOP/fifo_dut/u_fifo_sva/c_underflow 
+                                         FIFO_SVA Verilog  SVA  FIFO_SVA.sv(87)  436 Covered   
+/FIFO_TOP/fifo_dut/u_fifo_sva/c_wr_ack   FIFO_SVA Verilog  SVA  FIFO_SVA.sv(116)1615 Covered   
+/FIFO_TOP/fifo_dut/u_fifo_sva/c_overflow FIFO_SVA Verilog  SVA  FIFO_SVA.sv(117) 153 Covered   
+/FIFO_TOP/fifo_dut/u_fifo_sva/c_ovf_back2back 
+                                         FIFO_SVA Verilog  SVA  FIFO_SVA.sv(119)  63 Covered   
+/FIFO_TOP/fifo_dut/u_fifo_sva/c_ovf_with_rd 
+                                         FIFO_SVA Verilog  SVA  FIFO_SVA.sv(121)  56 Covered   
+/FIFO_TOP/fifo_dut/u_fifo_sva/c_rw_mid   FIFO_SVA Verilog  SVA  FIFO_SVA.sv(163) 809 Covered   
+/FIFO_TOP/fifo_dut/u_fifo_sva/c_rw_empty FIFO_SVA Verilog  SVA  FIFO_SVA.sv(165) 146 Covered   
+/FIFO_TOP/fifo_dut/u_fifo_sva/c_rw_full  FIFO_SVA Verilog  SVA  FIFO_SVA.sv(167)  56 Covered   
+/FIFO_TOP/fifo_dut/u_fifo_sva/c_fill_to_full 
+                                         FIFO_SVA Verilog  SVA  FIFO_SVA.sv(169)  50 Covered   
+/FIFO_TOP/fifo_dut/u_fifo_sva/c_drain_to_empty 
+                                         FIFO_SVA Verilog  SVA  FIFO_SVA.sv(171)  30 Covered   
+/FIFO_TOP/fifo_dut/u_fifo_sva/c_wr_ptr_wrap 
+                                         FIFO_SVA Verilog  SVA  FIFO_SVA.sv(201) 162 Covered   
+/FIFO_TOP/fifo_dut/u_fifo_sva/c_rd_ptr_wrap 
+                                         FIFO_SVA Verilog  SVA  FIFO_SVA.sv(203) 135 Covered   
+/FIFO_TOP/fifo_dut/u_fifo_sva/c_rd_valid FIFO_SVA Verilog  SVA  FIFO_SVA.sv(216)1311 Covered   
+/FIFO_TOP/fifo_dut/u_fifo_sva/c_rd_empty_then_wr 
+                                         FIFO_SVA Verilog  SVA  FIFO_SVA.sv(218)  24 Covered   
+
+
+DIRECTIVE COVERAGE:
+--------------------------------------------------------------------------------------------
+Name                                     Design Design   Lang File(Line)      Hits Status    
+                                         Unit   UnitType                                     
+--------------------------------------------------------------------------------------------
+/FIFO_TOP/fifo_dut/u_fifo_sva/c_async_reset 
+                                         FIFO_SVA Verilog  SVA  FIFO_SVA.sv(40)  109 Covered   
+/FIFO_TOP/fifo_dut/u_fifo_sva/c_reset_when_nonempty 
+                                         FIFO_SVA Verilog  SVA  FIFO_SVA.sv(44)   87 Covered   
+/FIFO_TOP/fifo_dut/u_fifo_sva/c_reset_when_full 
+                                         FIFO_SVA Verilog  SVA  FIFO_SVA.sv(45)    7 Covered   
+/FIFO_TOP/fifo_dut/u_fifo_sva/c_reset_during_write 
+                                         FIFO_SVA Verilog  SVA  FIFO_SVA.sv(46)   65 Covered   
+/FIFO_TOP/fifo_dut/u_fifo_sva/c_reset_release 
+                                         FIFO_SVA Verilog  SVA  FIFO_SVA.sv(47)  109 Covered   
+/FIFO_TOP/fifo_dut/u_fifo_sva/c_full     FIFO_SVA Verilog  SVA  FIFO_SVA.sv(83)   89 Covered   
+/FIFO_TOP/fifo_dut/u_fifo_sva/c_empty    FIFO_SVA Verilog  SVA  FIFO_SVA.sv(84)  165 Covered   
+/FIFO_TOP/fifo_dut/u_fifo_sva/c_almostfull 
+                                         FIFO_SVA Verilog  SVA  FIFO_SVA.sv(85)  135 Covered   
+/FIFO_TOP/fifo_dut/u_fifo_sva/c_almostempty 
+                                         FIFO_SVA Verilog  SVA  FIFO_SVA.sv(86)  310 Covered   
+/FIFO_TOP/fifo_dut/u_fifo_sva/c_underflow 
+                                         FIFO_SVA Verilog  SVA  FIFO_SVA.sv(87)  436 Covered   
+/FIFO_TOP/fifo_dut/u_fifo_sva/c_wr_ack   FIFO_SVA Verilog  SVA  FIFO_SVA.sv(116)1615 Covered   
+/FIFO_TOP/fifo_dut/u_fifo_sva/c_overflow FIFO_SVA Verilog  SVA  FIFO_SVA.sv(117) 153 Covered   
+/FIFO_TOP/fifo_dut/u_fifo_sva/c_ovf_back2back 
+                                         FIFO_SVA Verilog  SVA  FIFO_SVA.sv(119)  63 Covered   
+/FIFO_TOP/fifo_dut/u_fifo_sva/c_ovf_with_rd 
+                                         FIFO_SVA Verilog  SVA  FIFO_SVA.sv(121)  56 Covered   
+/FIFO_TOP/fifo_dut/u_fifo_sva/c_rw_mid   FIFO_SVA Verilog  SVA  FIFO_SVA.sv(163) 809 Covered   
+/FIFO_TOP/fifo_dut/u_fifo_sva/c_rw_empty FIFO_SVA Verilog  SVA  FIFO_SVA.sv(165) 146 Covered   
+/FIFO_TOP/fifo_dut/u_fifo_sva/c_rw_full  FIFO_SVA Verilog  SVA  FIFO_SVA.sv(167)  56 Covered   
+/FIFO_TOP/fifo_dut/u_fifo_sva/c_fill_to_full 
+                                         FIFO_SVA Verilog  SVA  FIFO_SVA.sv(169)  50 Covered   
+/FIFO_TOP/fifo_dut/u_fifo_sva/c_drain_to_empty 
+                                         FIFO_SVA Verilog  SVA  FIFO_SVA.sv(171)  30 Covered   
+/FIFO_TOP/fifo_dut/u_fifo_sva/c_wr_ptr_wrap 
+                                         FIFO_SVA Verilog  SVA  FIFO_SVA.sv(201) 162 Covered   
+/FIFO_TOP/fifo_dut/u_fifo_sva/c_rd_ptr_wrap 
+                                         FIFO_SVA Verilog  SVA  FIFO_SVA.sv(203) 135 Covered   
+/FIFO_TOP/fifo_dut/u_fifo_sva/c_rd_valid FIFO_SVA Verilog  SVA  FIFO_SVA.sv(216)1311 Covered   
+/FIFO_TOP/fifo_dut/u_fifo_sva/c_rd_empty_then_wr 
+                                         FIFO_SVA Verilog  SVA  FIFO_SVA.sv(218)  24 Covered   
+
+TOTAL DIRECTIVE COVERAGE: 100.00%  COVERS: 23
+
+ASSERTION RESULTS:
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_reset_values
+                     FIFO_SVA.sv(29)                    0          1
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_async_reset
+                     FIFO_SVA.sv(37)                    0          1
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_full
+                     FIFO_SVA.sv(53)                    0          1
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_empty
+                     FIFO_SVA.sv(57)                    0          1
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_almostfull
+                     FIFO_SVA.sv(61)                    0          1
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_almostempty
+                     FIFO_SVA.sv(65)                    0          1
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_underflow
+                     FIFO_SVA.sv(69)                    0          1
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_flags_excl
+                     FIFO_SVA.sv(74)                    0          1
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_outputs_known
+                     FIFO_SVA.sv(80)                    0          1
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_wr_ack_fwd
+                     FIFO_SVA.sv(93)                    0          1
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_wr_ack_rev
+                     FIFO_SVA.sv(97)                    0          1
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_no_ack_full
+                     FIFO_SVA.sv(101)                   0          1
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_ovf_fwd
+                     FIFO_SVA.sv(105)                   0          1
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_ovf_rev
+                     FIFO_SVA.sv(109)                   0          1
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_ack_ovf_excl
+                     FIFO_SVA.sv(113)                   0          1
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_count_range
+                     FIFO_SVA.sv(126)                   0          1
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_cnt_inc
+                     FIFO_SVA.sv(130)                   0          1
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_cnt_dec
+                     FIFO_SVA.sv(134)                   0          1
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_cnt_hold
+                     FIFO_SVA.sv(138)                   0          1
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_cnt_sat_full
+                     FIFO_SVA.sv(142)                   0          1
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_cnt_sat_empty
+                     FIFO_SVA.sv(146)                   0          1
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_rw_mid
+                     FIFO_SVA.sv(151)                   0          1
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_rw_empty
+                     FIFO_SVA.sv(155)                   0          1
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_rw_full
+                     FIFO_SVA.sv(159)                   0          1
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_wr_ptr_range
+                     FIFO_SVA.sv(176)                   0          1
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_rd_ptr_range
+                     FIFO_SVA.sv(178)                   0          1
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_wr_ptr_inc
+                     FIFO_SVA.sv(182)                   0          1
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_wr_ptr_hold
+                     FIFO_SVA.sv(185)                   0          1
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_rd_ptr_inc
+                     FIFO_SVA.sv(189)                   0          1
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_rd_ptr_hold
+                     FIFO_SVA.sv(192)                   0          1
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_ptr_vs_count
+                     FIFO_SVA.sv(197)                   0          1
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_dout_stable
+                     FIFO_SVA.sv(209)                   0          1
+/FIFO_TOP/fifo_dut/u_fifo_sva/a_underflow_noside
+                     FIFO_SVA.sv(213)                   0          1
+
+Total Coverage By Instance (filtered view): 100.00%
+
